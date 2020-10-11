@@ -1,0 +1,44 @@
+
+.Home{
+  color: #ffffff;
+  text-transform: capitalize;
+  font-family: Montserrat;
+  transition: all .4s ease-in-out;
+  flex: .6;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+min-width: 60%;
+  position: relative;
+  background-image: linear-gradient(120deg, #121212 50%, transparent 100%);
+
+
+}
+//background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSVAW-qN5av0R0Ji5ZflpYUKehuJE8qiPpmXg&usqp=CAU");
+h1,h2{
+  display: block;
+  z-index: 100;
+}
+h2{
+  margin-top: 20px;
+}
+
+
+.info{
+  padding: 10px;
+  width: 100%;
+  min-height: 12vh;
+  background-image: linear-gradient(120deg, #121212 50%, transparent 100%);
+  border-radius: 6px;
+}
+img{
+  border-radius: 6px;
+  width: 100%;
+  height: 12vh;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+opacity: 1;
+  z-index: -1;
+  }
